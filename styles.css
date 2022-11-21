@@ -30,3 +30,9 @@ img {
     font-weight: 800;
     width: clamp(45ch, 50%, 75ch);
 }
+
+/* Form Settings */
+
+ul li { 
+    list-style-type: none;
+}
