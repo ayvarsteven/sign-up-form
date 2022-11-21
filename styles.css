@@ -22,3 +22,11 @@ img {
 .img-container {
     /* width: 200px; */
 }
+
+/* Info Paragraph */
+
+.info {
+    font-size: 1.25rem;
+    font-weight: 800;
+    width: clamp(45ch, 50%, 75ch);
+}
