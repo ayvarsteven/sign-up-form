@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <div class="main-container">
@@ -16,63 +18,66 @@
         </div>
 
         <!-- <img src="/_images/odin-lined.png" alt="THe Odin Project Logo" class="logo"> -->
-        
+
         <div class="form-container">
             <div class="info">
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
                 <p>You know you want to.</p>
             </div>
 
+            <div class="form-wrapper">
 
-            <h2>Lets Do this!</h2>
+                <h2>Lets Do this!</h2>
 
-            <form action="signbrite.us" method="post">
+                <form action="signbrite.us" method="post">
 
-                <div class="column1">
-                    <ul>
-                        <li>
-                            <label for="first-name">First Name <br>
-                            <input type="text" name="userFirstName" id="first-name">
-                            </label>
-                        </li>
-                        <li>
-                            <label for="last-name">Last Name <br>
-                            <input type="text" name="userLastName" id="last-name">
-                            </label>
-                        </li>
-                        <li>
-                            <label for="email">Email <br>
-                            <input type="email" name="userEmail" id="email">
-                            </label>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="column1">
+                        <ul>
+                            <li>
+                                <label for="first-name">First Name <br>
+                                    <input type="text" name="userFirstName" id="first-name">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="last-name">Last Name <br>
+                                    <input type="text" name="userLastName" id="last-name">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="email">Email <br>
+                                    <input type="email" name="userEmail" id="email">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
 
-                <div class="column2">
-                    <ul>
-                        <li>
-                            <label for="phone">Phone Number <br>
-                            <input type="tel" name="userPhone" id="phone">
-                            </label>
-                        </li>
-                        <li>
-                            <label for="password">Password <br>
-                            <input type="password" name="userPassword" id="password">
-                            </label>
-                        </li>
-                        <li>
-                            <label for="confirm-password">Confirm Password <br>
-                            <input type="password" name="confirmUserPassword" id="confirm-password">
-                            </label>
-                        </li>
-                    </ul>
-                </div>
+                    <div class="column2">
+                        <ul>
+                            <li>
+                                <label for="phone">Phone Number <br>
+                                    <input type="tel" name="userPhone" id="phone">
+                                </label>
+                            </li>
+                            <li>
+                                <label for="password">Password <br>
+                                    <input type="password" name="userPassword" id="password" required>
+                                </label>
+                            </li>
+                            <li>
+                                <label for="confirm-password">Confirm Password <br>
+                                    <input type="password" name="confirmUserPassword" id="confirm-password" required>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
 
-                <input type="submit" value="Create Account">
+            <input type="submit" value="Create Account" class="create-account">
             </form>
             <p>Already have an account? <a href="google.com">Log In</a></p>
         </div>
     </div>
 
 </body>
+
 </html>
