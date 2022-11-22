@@ -36,3 +36,13 @@ img {
 ul li { 
     list-style-type: none;
 }
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form input {
+    width: 100%;
+    gap: 1rem;
+}
